@@ -1,0 +1,105 @@
+<div class="container container-styles">
+    <div class="col-xs-7 col-xs-offset-3">
+        <div class="panel panel-primary">
+            <div class="panel-body padding">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <div class ="h3">
+        <div class="w3-padding w3-large w3-text-blue">
+         <div class="col-md-4" style="padding-right: 40px;">               
+                <div class="input-prepend-inner pull-left">
+                  <span class="add-on"><i class="fa fa-search"></i></span>
+                 <i class="fa fa-bars"></i>
+               </div>
+          </div>
+        </div>
+    </div>
+         <!--  <img class= "image" src="D:/POC/FoodTracebility/src/assets/img/sysco.jpeg" width="400" height="100">-->
+        <br>
+        <br>
+        <br>
+        <span></span>
+        <div class="text-center">Farmer</div>
+    <form class="form-horizontal">     
+     <div class="form-Group">
+        <div class="input-group">
+            <span class="input-group-addon">LOTID</span>
+            <input id="asset" type="text" class="form-control" name="">
+        </div>
+    </div>
+    <br><br>
+    </form> 
+      
+    <div class="jumbotran">
+       <form #frm="ngForm">
+        <div class="form-group">
+            <div class="input-group">
+            <span class="input-group-addon">USERID</span>
+            <input id="" type="text" class="form-control" name="Userid" [(ngModel)]="userid" #Userid="ngModel">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon">ASSETID</span>
+                <input id="" type="text" class="form-control" name="assetid" [(ngModel)]="AssetId" #assetid="ngModel">
+                </div>
+          </div>
+          <div class="form-group">
+              <div class="input-group">
+                  <span class="input-group-addon">STATUS</span>
+                  <input id="" type="text" class="form-control" name="">
+                  </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon">CERTID</span>&nbsp;&nbsp;&nbsp;
+               <button (click)="add()" class="btn btn-primary">ADD</button>&nbsp;&nbsp;&nbsp;&nbsp;
+               <button (click)="view()" class="btn btn-primary">VIEW</button>
+          </div>
+          </div>
+         <div class="form-group">
+            <div class="input-group">
+            <span class="input-group-addon">TARGET</span>
+            <input id="" type="text" class="form-control" name="targetid"><br>
+            </div>
+                <div class="text-center">
+                <button  class="btn btn-default btn-sm" >
+                  <span class="glyphicon glyphicon-triangle-left"></span>
+               </button>
+               <button (click)="cattleInit()" type="button" class="btn btn-default btn-sm">
+                  <span class="glyphicon glyphicon-triangle-right"></span>
+               </button>
+            </div>
+          </div>
+         </form>
+         <div class="text-center">
+            <button (click)="add()" class="btn btn-primary">CREATE</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button (click)="add()" class="btn btn-primary">TRANSFER</button><br><br>
+        </div>
+         <div class="panel panel-primary">
+            <div class="input-group">
+                <ul class="nav navbar-nav">
+            <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-time">History</span>
+                </a>
+              </li>
+              <li>
+                 <a href="#">
+                  <span class="glyphicon glyphicon-home">Dashboard</span>
+                </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-th-list">Transactions</span>
+                  </a>
+                </li>
+                </ul>
+              </div>
+         </div>
+   </div>
+  </div>
+ </div>
+ </div>  
+</div>
